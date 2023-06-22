@@ -1,0 +1,109 @@
+.intro{
+    margin: 20px 0 0 40px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.education{
+    margin: 20px 20px 20px 20px;
+    padding: 0 40px 20px 0;
+    line-height: 2;
+    box-shadow: 10px 10px 5px lightblue;
+    transition: transform 250ms;
+    width: 800px;
+   
+}
+.education:hover{
+    transform: translate(-5px,-20px);
+    transform: scale(1.08,1.2);
+  
+}
+.education h1{
+    border-bottom: 2px solid black;
+    
+}
+.scl{
+    margin: 0 0 0 20px;
+}
+.scl div{
+    margin: 0 0 0 20px
+}
+.scl ul{
+    margin: 10px 0 0 20px
+}
+.clg{
+    margin: 0 0 0 20px;
+
+}
+.clg div{
+    margin: 0 0 0 20px
+}
+.clg ul{
+    margin: 10px 0 0 20px
+}
+.work{
+    margin: 20px 20px 20px 20px;
+    padding: 0 40px 20px 0;
+    line-height: 2;
+    box-shadow: 10px 10px 5px lightblue;
+    transition: transform 250ms;
+    width: 800px;
+}
+.work:hover{
+    transform: translate(-5px,-20px);
+    transform: scale(1.08,1.2);
+  
+}
+.work h1{
+    border-bottom: 2px solid black;
+}
+.work h3{
+    margin: 0 0 0 20px;
+}
+.work div{
+    margin: 0 0 0 60px;
+}
+.work p{
+    margin: 0 0 0 30px;
+    font-size: smaller;
+}
+.kizhicha{
+    margin: 20px 20px 20px 20px;
+    padding: 0 40px 20px 0;
+    line-height: 2;
+    box-shadow: 10px 10px 5px lightblue;
+    transition: transform 250ms;
+    width: 800px;
+}
+.kizhicha:hover{
+    transform: scale(1.08,1.2);
+}
+.kizhicha h1{
+    border-bottom: 2px solid black;
+}
+.kizhicha li{
+    margin: 0  0 0 40px;
+}
+
+
+@media screen and (max-width: 700px){
+    .intro{
+       width: 300px;
+    }
+    .education{
+        width: 400px;
+        line-height: 1.5;
+    }
+    .work{
+        width: 400px;
+        line-height: 1.5;
+    }
+    .kizhicha{
+        width: 400px;
+        line-height: 1.5;
+        font-size: 15px;
+    }
+    .kizhicha li{
+        margin: 0 10px 0 0;
+    }
+}

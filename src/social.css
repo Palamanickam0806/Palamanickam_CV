@@ -1,0 +1,18 @@
+.social-container {
+    margin: 0 0 0 30px;
+    padding: 0 50px;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  a.social:hover {
+    transform: translateY(-10px);
+  }
+  a.instagram {
+   color:  linear-gradient( to right, red, yellow);
+  }
+  a.linkedin{
+    color: rgb(16, 156, 238);
+  }
